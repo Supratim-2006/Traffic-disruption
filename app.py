@@ -542,7 +542,7 @@ app = FastAPI(
 # Load model once at startup
 try:
     model_file = hf_hub_download(
-        repo_id="your_username/traffic-disruption-model",
+        repo_id="SupratimKukri/traffic-disruption-model",
         filename="traffic_disruption_model.pkl"
     )
 
