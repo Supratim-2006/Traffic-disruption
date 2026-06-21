@@ -1,5 +1,8 @@
 # Traffic Disruption Prediction
 
+
+The API is live at https://traffic-disruption.onrender.com
+
 Predicts how long a traffic disruption (breakdown, accident, road work, water-logging, etc.) will take to resolve, using a gradient-boosted classifier trained on historical Bengaluru traffic-incident data.
 
 Given an incident's start time, location, and optional context (zone, junction, cause, description, etc.), the model classifies the **expected resolution time** into one of four buckets:
